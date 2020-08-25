@@ -1,0 +1,23 @@
+{
+  "name": "lerna-hoist",
+  "version": "0.0.1",
+  "bin": {
+    "lerna-hoist": "./hoist.js"
+  },
+  "description": "Get all monorepo packages deps into root package.json",
+  "main": "hoist.js",
+  "scripts": {
+    "start": "node hoist.js"
+  },
+  "keywords": [
+    "hoist"
+  ],
+  "author": "Romain Griffiths (romain.griffiths@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@lerna/batch-packages": "^3.16.0",
+    "@lerna/filter-packages": "^3.18.0",
+    "@lerna/project": "^3.21.0",
+    "minimist": "^1.2.5"
+  }
+}
