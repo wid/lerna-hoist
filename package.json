@@ -1,7 +1,7 @@
 {
   "author": "Romain Griffiths (romain.griffiths@gmail.com)",
   "name": "lerna-hoist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "lerna-hoist": "./hoist.js"
   },
